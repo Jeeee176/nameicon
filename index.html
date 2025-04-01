@@ -1,49 +1,61 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    
-    <!--fontawsome cdn-->
+    <!-- Font Awesome CDN -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Name Icons</title>
 
-<style>
-    body {
-    background-color: green;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    text-align: center;
-}
+    <style>
+        body {
+            background-color: green;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            text-align: center;
+        }
 
-i {
-    font-size: 100px; /* Adjust size as needed */
-    color: white; /* Change color if needed */
-    margin: 10px;
-}
-</style>
+        .top, .bottom {
+            display: flex;
+            gap: 30px; /* Space between letters */
+        }
 
+        i {
+            font-size: 50px; /* Adjust size */
+            color: white; /* Change color if needed */
+        }
+
+        .top {
+            margin-bottom: 20px; /* Space between the two rows */
+        }
+    </style>
 </head>
 <body>
 
-    <i class="fa-solid fa-j"></i>
-    <i class="fa-solid fa-e"></i>
-    <i class="fa-solid fa-u"></i>
-    <i class="fa-solid fa-s"></i>
-    <i class="fa-solid fa-h"></i>
+    <div class="top">
+        <i class="fa-solid fa-star-of-life"></i>
+        <i class="fa-solid fa-j"></i>
+        <i class="fa-solid fa-e"></i>
+        <i class="fa-solid fa-u"></i>
+        <i class="fa-solid fa-s"></i>
+        <i class="fa-solid fa-h"></i>
+        <i class="fa-solid fa-star-of-life"></i>
+    </div>
 
-    <br>
+    <div class="bottom">
+        <i class="fa-solid fa-bolt"></i>
+        <i class="fa-solid fa-l"></i>
+        <i class="fa-solid fa-l"></i>
+        <i class="fa-solid fa-a"></i>
+        <i class="fa-solid fa-g"></i>
+        <i class="fa-solid fa-a"></i>
+        <i class="fa-solid fa-s"></i>
+        <i class="fa-solid fa-bolt"></i>
+    </div>
 
-    <i class="fa-solid fa-l"></i>
-    <i class="fa-solid fa-l"></i>
-    <i class="fa-solid fa-a"></i>
-    <i class="fa-solid fa-g"></i>
-    <i class="fa-solid fa-a"></i>
-    <i class="fa-solid fa-s"></i>
-    
 </body>
 </html>
